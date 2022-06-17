@@ -1,5 +1,9 @@
 body{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
     font-family: roboto, Arial, Helvetica, sans-serif;
+    margin: 0px;
 }
 .Header{
     background-color: #1f2937;
@@ -9,6 +13,16 @@ body{
     margin: 0px;
     padding: 10px;
 }
+
+.left {
+    display: flex;
+    align-items: center;
+}
+
+.right{
+    display: flex;
+    align-items: center;
+}
 .logo img{
     max-width: 65px;
     max-height: 65px;
@@ -17,7 +31,7 @@ body{
     border-radius: 50%;
     margin-left: 125px;
 }
-.title{
+.headerTitle{
     margin: 10px;
     color: #f9faf8;
     font-size: 24px;
@@ -32,13 +46,58 @@ a{
     color: #f9faf8;
 }
 
-.left {
+.Hero{
     display: flex;
+    justify-content: center;
     align-items: center;
+    background-color: #1f2937;
+    padding: 100px;
 }
 
-.right{
+.leftHero{
     display: flex;
-    align-items: center;
+    flex-direction: column;
+    gap: 5px;
+
+    
 }
 
+.heroTitle{
+    display: flex;
+    color: #f9faf8;
+    font-size: 30px;
+}
+.heroText{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+p {
+    color: #f9faf8;
+    margin: 0px;
+    font-size: 16px;
+}
+.heroButton{
+  
+    margin-top: 10px;
+  
+}
+
+button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3882f6;
+    border-color: #3882f6;
+    border-radius: 10px;
+    color: #f9faf8;
+    width: 75px
+}
+
+.rightHero {
+    display: flex;
+}
+
+.heroPic {
+    display: flex;
+}
