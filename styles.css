@@ -5,6 +5,7 @@ body{
     font-family: roboto, Arial, Helvetica, sans-serif;
     margin: 0px;
 }
+/* Section below is for the page header*/
 .Header{
     background-color: #1f2937;
     display:flex;
@@ -45,7 +46,7 @@ a{
     text-decoration: none;
     color: #f9faf8;
 }
-
+/* Section below is for "hero" or Welcome info*/
 .Hero{
     display: flex;
     justify-content: center;
@@ -104,6 +105,7 @@ button {
     height: 300px;
 }
 
+/* Section below is for Info/Pictures  */
 .infoSec{
     display: flex;
     justify-content: center;
@@ -133,4 +135,32 @@ button {
     border-radius: 10px;
     justify-content: center;
 }
-
+/*Section Below is for Quote section */
+.quote{
+    background-color: #e5e7eb;
+    padding: 90px;
+}
+.person, .words {
+    display: flex;
+    justify-content: center;
+    color: #1f2937;
+    font-size: 36px;
+    background-color: #e5e7eb;
+  
+}
+.words{
+    font-style: italic;
+    font-weight: lighter
+}
+.person{
+    margin-left: 500px;
+    margin-top: 50px;
+    font-weight: bolder;
+}
+/* Section below is for call to action section*/
+.callAction{
+    display: flex;
+    justify-content: center;
+    background-color: blue;
+    color: red;
+}
