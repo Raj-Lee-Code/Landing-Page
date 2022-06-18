@@ -161,6 +161,39 @@ button {
 .callAction{
     display: flex;
     justify-content: center;
-    background-color: blue;
     color: red;
+}
+.group{
+    display: flex;
+    background-color: #3882f6;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 75px 100px 75px;
+    border-radius: 10px;
+}
+.leftGroup{
+display: flex;
+flex-direction: column;
+margin-right: 200px;
+}
+.wordStuff{
+    display: flex;
+    color: #e5e7eb;
+    font-weight: bold
+}
+.wordStuff2{
+    display: flex;
+    color: #e5e7eb;
+    font-weight: lighter
+}
+.bot{
+    border-color: #f9faf8;
+    width: 125px
+}
+/* Section below is for footer*/
+.footer{
+    display: flex;
+    justify-content: center;
+    background-color: #1f2937;
+    padding: 20px;
 }
