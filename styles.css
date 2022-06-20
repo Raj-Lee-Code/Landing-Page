@@ -42,6 +42,7 @@ a{
     text-decoration: none;
     color: #f9faf8;
 }
+
 /* Section below is for "hero" or Welcome info*/
 .Hero{
     display: flex;
